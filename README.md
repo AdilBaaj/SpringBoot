@@ -6,7 +6,6 @@ Features implemented :
 
 **TO DO :**
 
-- connect to database
 - Use liquibase to generate migrations
 - Write first unit test using junit
 - Use spring security for authentication
