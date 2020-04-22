@@ -1,0 +1,20 @@
+databaseChangeLog:
+- changeSet:
+    id: 1587596459499-2
+    author: Adil (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            constraints:
+              primaryKey: true
+            name: id
+            type: INT
+        - column:
+            name: email
+            type: VARCHAR(255)
+        - column:
+            name: name
+            type: VARCHAR(255)
+        tableName: user_entity
+
